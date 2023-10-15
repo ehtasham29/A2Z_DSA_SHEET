@@ -65,3 +65,44 @@
 
 // --------------------------------------------------------------------------------------------------------
 // ------------------------------>>>  TRAVERSAL TECHNIQUES  <<<<<<<-----------------------------
+// 1. BFS --> Breadth First Search 
+// 2. DFS --> Depth First Search 
+
+// indexing can be both 0 based or 1 based , but logic will remain same 
+// traversal of any graph will depend on the starting node give 
+// differnt starting node will have different BFS or DFS traversal of the same given graph
+
+// BFS traversal requires a Queue DS and a vis[] of one extra size 
+// --> ALGORITHM OF BFS 
+//     1. Push starting node in the Q and mark the vis array 
+//     2. Pop the front element of Q and check its adjList and then push them in Q
+//          after checking them on vis whether marked or not
+//     3. store the ans in vector 
+//     4. Repeat this till Q become null 
+
+// ------------------------>>>>>>>>>> BFS Code 
+
+// vector<int> bfsOfGraph(int V, vector<int> adj[]) {
+//         // Code here
+//         int vis[V] = {0} ;
+//         vis[0] = 1 ;
+//         queue<int> q ;
+//         vector<int> bfs ;
+//         q.push(0) ;
+//         while(!q.empty())
+//         {
+//             int node = q.front() ;
+//             q.pop() ;
+//             bfs.push_back(node) ;
+//             for(auto it : adj[node])
+//             {
+//                 if(!vis[it])
+//                 {
+//                     vis[it] = 1 ;
+//                     q.push(it) ;
+//                 }
+//             }
+//         }
+//         return bfs ;
+// }
+
