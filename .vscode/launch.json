@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/EHTASHAM/Desktop/DSA/A2Z_DSA_SHEET/GRAPH/Theory",
-      "program": "c:/Users/EHTASHAM/Desktop/DSA/A2Z_DSA_SHEET/GRAPH/Theory/build/Debug/outDebug",
+      "cwd": "c:/Users/EHTASHAM/Desktop/DSA/A2Z_DSA_SHEET/GRAPH/Learning",
+      "program": "c:/Users/EHTASHAM/Desktop/DSA/A2Z_DSA_SHEET/GRAPH/Learning/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
