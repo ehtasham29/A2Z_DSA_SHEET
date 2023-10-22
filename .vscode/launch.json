@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/EHTASHAM/Desktop/DSA/A2Z_DSA_SHEET/GRAPH/Learning",
-      "program": "c:/Users/EHTASHAM/Desktop/DSA/A2Z_DSA_SHEET/GRAPH/Learning/build/Debug/outDebug",
+      "cwd": "c:/Users/EHTASHAM/Desktop/DSA/A2Z_DSA_SHEET/GRAPH/BFS/DFS_Problem",
+      "program": "c:/Users/EHTASHAM/Desktop/DSA/A2Z_DSA_SHEET/GRAPH/BFS/DFS_Problem/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
