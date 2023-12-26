@@ -1,14 +1,16 @@
 // ---------------- -------------->>>   INTRODUCTION OF THE GRAPH <<<<<<<-----------------------------
-// 1. Undirected graph                 2. directed graph      -- consists of vertex or nodes 
-//    total nodes = 2*Edges            indegree or outdegree 
+// 1. Undirected graph                            2. directed graph    -- consists of vertex or nodes 
+//    total degree of graph  = 2*Edges            indegree or outdegree 
+
+//    There can be edge weigths in graph --> in one graph , there could be two different edges having different weights 
 
 // ----------------------------------------------------------------------------------------
 
-//  Two ways of taking input 
-// 1. Matrix  2. List 
+//  Two ways of taking input --(means adjacent nodes relation) 
+// 1. Matrix ---> (Adjacency Matrix) 2. List ---> (Adjacency List)
 
 
-// ----> Using Matrix 
+// ------------------------------------------> Using Matrix 
 // #include<iostream>
 // using namespace std;
         
@@ -36,7 +38,7 @@
 // }
 
 
-// ---> Using List 
+// -// ----------------------------------------> Using List 
 
 // #include<iostream>
 // #include<vector>
@@ -52,6 +54,14 @@
 //     cin>>u>>v ;
 //     adjList[u].push_back(v) ;
 //     adjList[v].push_back(u) ;
+// }
+// for(int i=0; i <n; i++)
+// {
+//     for(auto it : adjList[i])
+//     {
+//         cout<<it<<" " ;
+//     }
+//     cout<<endl;
 // }
 // return 0;
 // }
