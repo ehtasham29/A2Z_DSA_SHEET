@@ -83,7 +83,7 @@
 //         return ans ;
 //     } 
 // };
-// -----------------------------------------------------------------------------------------------------------------------------------------------
+// -------------------------------------------------------------------------------------------------------
 
 // Q2. FLOOD FILL 
 
@@ -128,4 +128,31 @@
 //         return ans ;
 //     }
 // };
-// -----------------------------------------------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------------------------------------
+//  Q3. Cycle Detection in Undirected Graph using BFS 
+
+// Problem Statement: Given an undirected graph with V vertices and 
+// E edges,check whether it contains any cycle or not.
+
+//  bool cycleDetectionUsingBFS(int start, vector<int> &vis vector<int> adj)
+// {
+//     int vis[start] = 1 ;
+//     queue<int> q ;
+//     q.push(start) ;
+
+//     while(!q.empty()) {
+//         int node = q.front() ;
+//         q.pop();
+//         for(auto it : adj[node]) {
+//             if(!vis[it])
+//             {
+//                 q.push(it) ;
+//             }
+//             else 
+//             {
+//                 return false ;
+//             }
+//         }
+//     }
+//     return true ;
+// }

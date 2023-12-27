@@ -50,6 +50,32 @@ int fun(vector<vector<int>> adjList, int n, int m)
 }
 
 // ----------------------------------------------------------------------------
+// --------------------cycleDetectionUsingBFS
+//  bool cycleDetectionUsingBFS(int start, vector<int> &vis, vector<int> adj)
+// {
+//     vis[start] = 1 ;
+//     queue<int> q ;
+//     q.push(start) ;
+
+//     while(!q.empty()) {
+//         int node = q.front() ;
+//         q.pop();
+//         for(auto it : adj[node]) {
+//             if(!vis[it])
+//             {
+//                 vis[it] = 1 ;
+//                 q.push(it) ;
+//             }
+//             else 
+//             {
+//                 return false ;
+//             }
+//         }
+//     }
+//     return true ;
+// }
+
+// ----------------------------------------------------------------------------
 int main(){
 
 // using Matrix to create Adjacency list
